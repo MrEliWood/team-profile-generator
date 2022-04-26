@@ -1,12 +1,27 @@
+@keyframes slideDown {
+    from {transform: translateY(-500px);}
+    to {transform: translateY(0px);}
+}
+
+@keyframes slideUp {
+    from {transform: translateY(200px); opacity: 0;}
+    to {transform: translateY(0px); opacity: 1;}
+}
+
 .team-heading {
-    background-color: bisque;
+    background-color: #37474F;
     margin-bottom: 50px;
+    color: white;
+    animation: slideDown 1s backwards;
+}
+
+.employee-card {
+    animation: slideUp 1s backwards 0.75s;
+    font-weight: 500;
 }
 
 .card-header {
-    background-color: bisque;
-}
-
-.card-body {
-    background-color: rgba(0, 0, 0, 0.02);
+    background-color: #546E7A;
+    color: white;
+    text-transform: capitalize;
 }
