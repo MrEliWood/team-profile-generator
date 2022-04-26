@@ -1,0 +1,12 @@
+.team-heading {
+    background-color: bisque;
+    margin-bottom: 50px;
+}
+
+.card-header {
+    background-color: bisque;
+}
+
+.card-body {
+    background-color: rgba(0, 0, 0, 0.02);
+}
